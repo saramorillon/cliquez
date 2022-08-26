@@ -1,0 +1,11 @@
+.vscode
+node_modules
+dist
+yarn-error.log
+.env
+logs
+coverage
+db
+sessions
+data
+Cliquez!.json

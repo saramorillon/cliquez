@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Viewer Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/@saramorillon/minicss@1.2.0/dist/minicss.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Cliquez!</h1>
+    </header>
+    <main>
+      <article>
+        <div>Nombre de clics : <span>0</span></div>
+      </article>
+      <label>
+        Zones
+        <input type="number" value="4" />
+      </label>
+      <button data-variant="primary">Démarrer</button>
+    </main>
+  </body>
+  <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+  <script src="https://cdn.socket.io/4.4.1/socket.io.min.js"></script>
+  <script src="config.js"></script>
+</html>
